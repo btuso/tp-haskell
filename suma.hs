@@ -6,15 +6,6 @@ factorial n = n * factorial(n-1)
 dist x y = abs (x-y)
 norma x y = sqrt (x^2+y^2)
 
-signo 0 = 0
-signo x | x > 0 = 1
-signo x | x < 0 = -1
-
-signo´ 0 = 0
-signo´ x
-	| x > 0 = 1
-	| x < 0 = -1
-
 signoOther x
 	| x == 0 = 0
 	| x > 0 = 1
